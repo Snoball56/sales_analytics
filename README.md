@@ -2,17 +2,17 @@
 
 This project builds an end-to-end analytics pipeline for an e-commerce dataset from the Brazilian Olist platform.
 
-The goal of the project is to transform raw transactional data into a structured data warehouse and create an interactive business intelligence dashboard that supports data-driven decision making.
+The goal of it is to transform raw transactional data into a structured data warehouse and create an interactive business intelligence dashboard that supports data-driven decision making.
 
 The workflow includes:
 
-Python for ETL and data transformation
+- Python for ETL and data transformation
 
-PostgreSQL for the data warehouse
+- PostgreSQL for the data warehouse
 
-SQL for analytical queries
+- SQL for analytical queries
 
-Power BI for interactive data visualization
+- Power BI for interactive data visualization
 
 
 
@@ -162,6 +162,7 @@ These are some insights derived from the analysis:
 - Product categories such as furniture and electronics are major revenue drivers.
 
 - Customer and revenue distribution vary significantly across Brazilian regions.
+
 
 
 
