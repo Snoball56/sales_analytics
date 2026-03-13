@@ -44,16 +44,17 @@ CREATE TABLE fact_sales (
         FOREIGN KEY(product_key) REFERENCES dim_product(product_key)
 );
 
-SELECT * FROM analytics.dim_customer LIMIT 5;
-SELECT * FROM analytics.dim_product LIMIT 5;
-SELECT * FROM analytics.dim_date LIMIT 5;
-SELECT * FROM analytics.fact_sales LIMIT 5;
+SELECT * FROM dim_customer LIMIT 5;
+SELECT * FROM dim_product LIMIT 5;
+SELECT * FROM dim_date LIMIT 5;
+SELECT * FROM fact_sales LIMIT 5;
 
 --auf Duplikate prüfen
 SELECT customer_unique_id, COUNT(*)
 FROM dim_customer
 GROUP BY customer_unique_id
 HAVING COUNT(*) > 1;
+
 
 
 
