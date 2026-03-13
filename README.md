@@ -54,7 +54,7 @@ Dimension tables:
 
 
 **Project Structure**
-
+```
 sales_analytics/
 │
 ├── README.md
@@ -80,7 +80,7 @@ sales_analytics/
 │   └── sales_analytics.pbix
 │
 └── images/
-
+```
 
 **Setup instructions**
 
@@ -159,6 +159,7 @@ These are some insights derived from the analysis:
 - Product categories such as furniture and electronics are major revenue drivers.
 
 - Customer and revenue distribution vary significantly across Brazilian regions.
+
 
 
 
