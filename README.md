@@ -1,4 +1,4 @@
-#**Project Overview**
+**Project Overview**
 
 This project builds an end-to-end analytics pipeline for an e-commerce dataset from the Brazilian Olist platform.
 
@@ -16,7 +16,7 @@ Power BI for interactive data visualization
 
 
 
-#**Business Questions**
+**Business Questions**
 
 The dashboard answers key business questions such as:
 
@@ -31,14 +31,14 @@ Which regions and states contribute most to revenue?
 How are customers distributed geographically?
 
 
-#**Data Pipeline**
+**Data Pipeline**
 
 The project implements a full analytics workflow:
 
 Raw CSV data -> Python ETL Pipeline -> PostgreSQL Data Warehouse -> SQL Analytics -> Power BI Dashboard
 
 
-#**Data Model**
+**Data Model**
 
 The project uses a star schema consisting of one fact table and three dimension tables.
 
@@ -53,7 +53,7 @@ Dimension tables:
 - dim_date
 
 
-#**Project Structure**
+**Project Structure**
 
 sales_analytics/
 │
@@ -82,7 +82,7 @@ sales_analytics/
 └── images/
 
 
-#**Setup instructions**
+**Setup instructions**
 
 1. Run the SQL Script to create the schema and tables in PostgreSQL.
 
@@ -91,7 +91,7 @@ sales_analytics/
 3. Open the PowerBI dashboard.
 
 
-#**SQL Analytics**
+**SQL Analytics**
 
 Example analytical queries used:
 
@@ -105,7 +105,7 @@ Example analytical queries used:
 
 - Customer distribution by region
 
-##**Example:**
+**Example:**
 
 SELECT
     c.customer_state,
@@ -117,7 +117,7 @@ GROUP BY c.customer_state
 ORDER BY revenue DESC;
 
 
-#**Dashboard pages**
+**Dashboard pages**
 
 ##Page 1: Sales Performance Overview
 
@@ -130,25 +130,25 @@ Key metrics:
 - Top 10 Product Categories
 - Revenue by geography
 
-##Page 2: Sales Insights
+Page 2: Sales Insights
 
 - Revenue by State
 - Orders by State
 - Month-over-month Revenue Growth
 
 
-#**Dashboard Preview**
+**Dashboard Preview**
 
 ![Dashboard]images/Page1_Sales_Overview.png
 ![Dashboard]images/Page2_Sales_Insights.png
 
 
-#**Dataset**
+**Dataset**
 
 Source: Olist Brazilian E-Commerce Public Dataset (Kaggle)
 
 
-#**Key Insights**
+**Key Insights**
 
 These are some insights derived from the analysis:
 
@@ -159,6 +159,7 @@ These are some insights derived from the analysis:
 - Product categories such as furniture and electronics are major revenue drivers.
 
 - Customer and revenue distribution vary significantly across Brazilian regions.
+
 
 
 
