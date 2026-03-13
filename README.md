@@ -80,6 +80,9 @@ sales_analytics/
 │   └── sales_analytics.pbix
 │
 └── images/
+│   └── Page1_Sales_Overview.png
+│   └── Page2_Sales_Insights.png
+
 ```
 
 **Setup instructions**
@@ -139,8 +142,8 @@ Page 2: Sales Insights
 
 **Dashboard Preview**
 
-![Dashboard]images/Page1_Sales_Overview.png
-![Dashboard]images/Page2_Sales_Insights.png
+![Dashboard](images/Page1_Sales_Overview.png)
+![Dashboard](images/Page2_Sales_Insights.png)
 
 
 **Dataset**
@@ -159,6 +162,7 @@ These are some insights derived from the analysis:
 - Product categories such as furniture and electronics are major revenue drivers.
 
 - Customer and revenue distribution vary significantly across Brazilian regions.
+
 
 
 
